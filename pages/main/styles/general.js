@@ -1,0 +1,100 @@
+export const general = {
+    main: {
+        height: '100%',
+        minWidth: '100%',
+        width: '100%',
+        margin: 'auto',
+        textAlign: 'center',
+        overflow: 'hidden',
+        flexDirection: 'column',
+        justifyContent: 'flex-start',
+        alignItems: 'center',
+        borderWidth: 1,
+    },
+    account: {
+        position: 'absolute',
+        backgroundColor: 'rgba(245, 245, 245, 0.8)',
+        top: 0,
+        right: 0,
+        marginLeft: 'auto',
+        borderBottomLeftRadius: 7,
+        borderTopLeftRadius: 7,
+        width: 180,
+        overflow: 'hidden',
+        borderWidth: 2,
+        borderColor: '#d1ae52',
+        borderRightWidth: 0,
+    },
+    accountData: {
+        height: 40,
+        justifyContent: 'center',
+        alignItems: 'center'
+    },
+    accountName: {
+        fontFamily: 'rubikItalic',
+        fontSize: 15
+    },
+    authBtn: {
+        height: 34,
+        marginTop: 'auto',
+        backgroundColor: '#00a843',
+        justifyContent: 'center',
+    },
+    authBtnText: {
+        fontFamily: 'rubik',
+        fontSize: 16,
+        color: '#f5f5f5',
+        textTransform: 'uppercase',
+        textAlign: 'center'
+    },
+    subjects: {
+        borderRadius: 15,
+        marginTop: 200,
+        marginHorizontal: 'auto',
+        flexDirection: 'row',
+        flexWrap: 'wrap',
+        justifyContent: 'center'
+    },
+    subjectsTitle: {
+        height: '100%',
+        width: '100%',
+        fontFamily: 'rubikBoldItalic',
+        color: '#034d06',
+        flexBasis: '100%',
+        borderRadius: 12,
+        backgroundColor: 'rgba(245, 245, 245, 1)',
+        display: 'flex',
+        marginHorizontal: 'auto',
+        textTransform: 'uppercase',
+        textAlign: 'center',
+        justifyContent: 'center',
+        zIndex: 10,
+    },
+    button: {
+        flexDirection: 'row',
+        marginVertical: 7,
+        marginHorizontal: 'auto',
+        justifyContent: 'space-between',
+        backgroundColor: '#D0E1F9',
+        borderWidth: 2,
+        borderColor: '#F2C057',
+        borderRadius: 10,
+    },
+    buttonInner: {},
+    stars: {
+        marginTop: 'auto',
+        flexDirection: 'row',
+    },
+    buttonText: {
+        marginTop: 'auto',
+        marginBottom: 'auto',
+        position: 'relative',
+        fontFamily: 'rubikBold',
+        textShadowRadius: 1,
+        textShadowColor: '#000',
+        color: '#2D4262',
+        letterSpacing: 1,
+        paddingTop: 4,
+        textAlign: 'center'
+    }
+};

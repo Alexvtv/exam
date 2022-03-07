@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "exam",
-    "slug": "exam",
+    "name": "exam preparation",
+    "slug": "ttpcExamPreparation",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/flask.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,8 +20,11 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "ttpc.exampreparation",
+      "versionCode": 6,
+      "permissions": [],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/flask.png",
         "backgroundColor": "#FFFFFF"
       }
     },

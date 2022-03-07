@@ -1,0 +1,47 @@
+export const general = {
+    main: {
+        width: 270,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        marginTop: 'auto',
+        marginBottom: 'auto',
+    },
+    textWrapper: {
+        borderRadius: 20,
+        width: '100%',
+        backgroundColor: '#f5f5f5',
+        marginBottom: 50,
+    },
+    title: {
+        marginBottom: 25,
+        letterSpacing: 2,
+        color: '#034d06',
+        fontFamily: 'rubikSemiBoldItalic',
+        textAlign: 'center',
+    },
+    result: {
+        fontFamily: 'rubikSemiBold',
+        color: '#034d06',
+        textAlign: 'center',
+    },
+    button: {
+        marginVertical: 10,
+        marginLeft: 'auto',
+        marginRight: 'auto',
+        justifyContent: 'center',
+        backgroundColor: '#2f98ed',
+        borderWidth: 2,
+        borderColor: '#d1ae52',
+        borderRadius: 10,
+    },
+    buttonText: {
+        position: 'relative',
+        fontFamily: 'rubikSemiBold',
+        textAlign: 'center',
+        textShadowRadius: 3,
+        color: '#ffcea1',
+        textShadowColor: '#000',
+        letterSpacing: 1,
+        paddingTop: 3,
+    },
+};

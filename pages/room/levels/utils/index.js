@@ -1,0 +1,1 @@
+export {stringPreparing} from './stringPreparing';
